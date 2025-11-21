@@ -138,6 +138,7 @@ export default function HomePage() {
               onChange={(e) => setNewTaskText(e.target.value)}
               className="flex-1 h-11 text-base rounded-lg transition-all duration-200 focus:scale-[1.01]"
               data-testid="input-new-task"
+              autoFocus
             />
             <Button
               type="submit"

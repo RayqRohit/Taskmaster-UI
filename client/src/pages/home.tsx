@@ -235,10 +235,10 @@ export default function HomePage() {
                 className="group bg-card border border-card-border rounded-lg p-4 hover-elevate transition-all duration-200"
                 data-testid={`task-item-${todo.id}`}
               >
-                <div className="flex items-start gap-3">
+                <div className="flex items-center gap-3">
                   <button
                     onClick={() => toggleTodo(todo.id)}
-                    className="mt-0.5 flex-shrink-0 transition-transform duration-200 hover:scale-110"
+                    className="flex-shrink-0 transition-transform duration-200 hover:scale-110"
                     data-testid={`button-toggle-${todo.id}`}
                     aria-label={todo.completed ? "Mark as incomplete" : "Mark as complete"}
                   >

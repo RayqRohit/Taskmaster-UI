@@ -4,3 +4,35 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+.vercel
+
+# Environment variables (sensitive)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Replit specific files
+replit.md
+.replit
+design_guidelines.md
+
+# Local state and cache
+.local/
+.cache/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+Thumbs.db
+*.swp
+*.swo
+*~

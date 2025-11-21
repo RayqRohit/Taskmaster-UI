@@ -1,0 +1,9 @@
+node_modules
+.git
+.local
+.env
+.env.local
+*.log
+.replit
+replit.md
+design_guidelines.md
